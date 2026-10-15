@@ -7,14 +7,14 @@
  *
  * @author Alumno
  */
-public class Clase14 extends javax.swing.JFrame {
+public class VistaPrincipal extends javax.swing.JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(Clase14.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(VistaPrincipal.class.getName());
 
     /**
      * Creates new form Clase14
      */
-    public Clase14() {
+    public VistaPrincipal() {
         initComponents();
     }
 
@@ -36,7 +36,6 @@ public class Clase14 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(15, 17, 21));
-        setPreferredSize(new java.awt.Dimension(1280, 800));
 
         jPanel1.setBackground(new java.awt.Color(15, 17, 21));
         jPanel1.setPreferredSize(new java.awt.Dimension(1280, 800));
@@ -142,7 +141,7 @@ public class Clase14 extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new Clase14().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new VistaPrincipal().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
